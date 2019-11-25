@@ -168,7 +168,7 @@ main {
 }
 
 .skill-table {
-    width: 50%;
+    width: 80%;
     margin: 0px 0px;
     border-collapse: collapse;
     border-spacing: 0px;
@@ -496,6 +496,10 @@ table {
         width: 100%;
     }
 
+    .skill-data p {
+        text-align: center;
+    }
+
     .eca-title {
         padding: 20px 0px 0px 0px;
         font-size: 35px;
@@ -583,12 +587,20 @@ table {
 }
 
 @media only screen and (width: 375px) {
+    .skill-data p {
+        text-align: center;
+    }
+
     .photographs-row {
         margin: 30px 0px 30px 30px;
     }
 }
 
 @media only screen and (width: 360px) {
+    .skill-data p {
+        text-align: center;
+    }
+
     .photographs-row {
         margin: 30px 0px 30px 20px;
     }
@@ -648,6 +660,10 @@ table {
 
     td {
         padding: 5 px;
+    }
+
+    .skill-data p {
+        text-align: center;
     }
 
     .eca-title {
